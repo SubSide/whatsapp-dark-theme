@@ -88,6 +88,10 @@
     font-style: italic;
 }
 
+.chat-subtitle .chat-subtitle-text {
+    color: #888;
+}
+
 .chat-title {
     color: #CCC;
 }
@@ -121,8 +125,20 @@
     border-top: 1px solid #777;
 }
 
+.chatlist .chat:hover:after, .chatlist .chat.hover:after, .chatlist .chat.active:after {
+    border-top: none;
+}
+
 .chatlist-panel-body {
     background-color: #292929;
+}
+
+.chatlist.chatlist-group-msg .drawer-section-title, .chatlist.chatlist-group-msg .drawer-section-footer, .chatlist.chatlist-group-msg .chat:hover {
+    background-color: #333;
+}
+
+.chatlist.chatlist-group-msg .infinite-list-viewport {
+    background-color: #444444;
 }
 
 .compose-popup-panel {
@@ -207,6 +223,10 @@
     background-color: #111;
 }
 
+.drawer-section.well-simple-body, .drawer-body-msg-info {
+    background-color: #444;
+}
+
 .drawer-settings .drawer-body {
     background: initial;
 }
@@ -225,6 +245,14 @@
 
 .dropdown a {
     color: #CCC;
+}
+
+.dropdown-item-action {
+    color: #CCC;
+}
+
+.dropdown-item-text.dropdown-item-hover {
+    background-color: #444444;
 }
 
 .emoji-panel-body-container {
@@ -504,6 +532,7 @@ body {
     background: #222;
 }
 
+
 div.list-search {
     background-color: #666;
 }
@@ -517,27 +546,4 @@ select {
     color: #999;
 }
 
-.chatlist.chatlist-group-msg .infinite-list-viewport {
-    background-color: #444444;
-}
-
-.chatlist.chatlist-group-msg .drawer-section-title, .chatlist.chatlist-group-msg .drawer-section-footer, .chatlist.chatlist-group-msg .chat:hover {
-    background-color: #333;
-}
-
-.drawer-section.well-simple-body, .drawer-body-msg-info {
-    background-color: #444;
-}
-
-.dropdown-item-action {
-    color: #CCC;
-}
-
-.dropdown-item-text.dropdown-item-hover {
-    background-color: #444444;
-}
-
-.chatlist .chat:hover:after, .chatlist .chat.hover:after, .chatlist .chat.active:after {
-    border-top: none;
-}
-
+/* Web whatsapp version 1.5 */
